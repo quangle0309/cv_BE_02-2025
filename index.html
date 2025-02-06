@@ -15,12 +15,11 @@
 </div>
 <header>
     <div class="profile-container">
-        <img src="/api/placeholder/180/180" alt="Profile" class="profile-img">
+        <img src="./img/index.jpg" alt="Profile" class="profile-img">
         <div class="profile-info">
             <h1 class="vi">Lê Hồng Quang</h1>
             <h1 class="en hidden">Le Hong Quang</h1>
-            <div class="profile-title vi">Backend Developer</div>
-            <div class="profile-title en hidden">Backend Developer</div>
+            <div class="profile-title">Fullstack Developer</div>
         </div>
     </div>
 </header>
@@ -61,16 +60,14 @@
             <div class="contact-item">
                 <div>
                     <strong>Github:</strong>
-                    <span><a href="https://github.com/quangle0309" target="_blank"
-                             style="color: var(--primary-color); text-decoration: none;">github.com/quangle0309</a></span>
+                    <span><a class="link" href="https://github.com/quangle0309"
+                             target="_blank">github.com/quangle0309</a></span>
                 </div>
             </div>
         </div>
-
         <div class="section">
             <h2 class="section-title vi">Kỹ năng chuyên môn</h2>
             <h2 class="section-title en hidden">Technical Skills</h2>
-
             <div class="skill-category">
                 <h3 class="skill-category-title vi">Ngôn ngữ lập trình</h3>
                 <h3 class="skill-category-title en hidden">Programming Languages</h3>
@@ -79,11 +76,11 @@
                     <li class="skill-item">JavaScript</li>
                 </ul>
             </div>
-
             <div class="skill-category">
                 <h3 class="skill-category-title vi">Framework & Công nghệ</h3>
                 <h3 class="skill-category-title en hidden">Frameworks & Technologies</h3>
                 <ul class="skill-list">
+                    <li class="skill-item">OOP</li>
                     <li class="skill-item">Spring Boot</li>
                     <li class="skill-item">ReactJs</li>
                     <li class="skill-item">Spring Security</li>
@@ -94,7 +91,6 @@
                     <li class="skill-item">Thymeleaf</li>
                 </ul>
             </div>
-
             <div class="skill-category">
                 <h3 class="skill-category-title vi">Cơ sở dữ liệu</h3>
                 <h3 class="skill-category-title en hidden">Databases</h3>
@@ -102,7 +98,6 @@
                     <li class="skill-item">MySQL</li>
                 </ul>
             </div>
-
             <div class="skill-category">
                 <h3 class="skill-category-title vi">Công cụ</h3>
                 <h3 class="skill-category-title en hidden">Tools</h3>
@@ -112,7 +107,6 @@
                 </ul>
             </div>
         </div>
-
         <div class="section">
             <h2 class="section-title vi">Học vấn</h2>
             <h2 class="section-title en hidden">Education</h2>
@@ -124,7 +118,6 @@
                 <div class="education-description en hidden">Java Web Fullstack Program</div>
             </div>
         </div>
-
         <div class="section">
             <h2 class="section-title vi">Chứng chỉ & Giải thưởng</h2>
             <h2 class="section-title en hidden">Certificates & Awards</h2>
@@ -136,16 +129,33 @@
     </div>
     <div class="right-column">
         <div class="section">
+            <h2 class="section-title vi">Mô tả bản thân</h2>
+            <h2 class="section-title en hidden">About Me</h2>
+            <div class="career-objective vi">
+                <p>Có kinh nghiệm lập trình hướng đối tượng (OOP) trong Java, áp dụng các nguyên lý như kế thừa, đóng
+                    gói và đa hình để xây dựng ứng dụng dễ bảo trì và mở rộng. Kinh nghiệm phát triển ứng dụng web động
+                    với ReactJs, sử dụng component, state, props và các hooks như useState, useEffect để quản lý trạng
+                    thái và tương tác giữa các component. Sử dụng được Redux để quản lý trạng thái phức tạp.</p>
+            </div>
+            <div class="career-objective en hidden">
+                <p>Experience in object-oriented programming (OOP) in Java, applying principles such as inheritance,
+                    encapsulation, and polymorphism to build maintainable and scalable applications. Experienced in
+                    developing dynamic web applications with ReactJS, utilizing components, state, props, and hooks like
+                    useState, useEffect to manage state and interactions between components. Proficient in using Redux
+                    for managing complex application state.</p>
+            </div>
+        </div>
+        <div class="section">
             <h2 class="section-title vi">Mục tiêu</h2>
             <h2 class="section-title en hidden">Objective</h2>
             <div class="career-objective vi">
-                <p>Là một lập trình viên fresher chuyên về phát triển web, tôi mong muốn áp dụng những kiến thức đã học
+                <p>Là một lập trình viên chuyên về phát triển web, tôi mong muốn áp dụng những kiến thức đã học
                     và kỹ năng lập trình để đóng góp vào các dự án thực tế. Mục tiêu của tôi là không ngừng học hỏi,
                     nâng cao kỹ năng chuyên môn và trở thành một lập trình viên web chuyên nghiệp, có khả năng tạo ra
                     những sản phẩm chất lượng, đáp ứng nhu cầu của người dùng và doanh nghiệp.</p>
             </div>
             <div class="career-objective en hidden">
-                <p>As a fresher web developer, I aim to apply my acquired knowledge and programming skills to contribute
+                <p>As a web developer, I aim to apply my acquired knowledge and programming skills to contribute
                     to real-world projects. My goal is to continuously learn, improve my technical expertise, and become
                     a professional web developer capable of creating high-quality products that meet both user and
                     business needs.</p>
@@ -160,34 +170,27 @@
                     <h3 class="project-title en hidden">WordPress Development</h3>
                     <span class="project-date">10/2024 - 2/2025</span>
                 </div>
-                <div class="project-description vi">
-                    <p>Phát triển và tùy chỉnh các website WordPress cho doanh nghiệp</p>
-                    <ul class="project-highlights">
-                        <li>Phát triển theme tùy chỉnh theo yêu cầu khách hàng</li>
-                        <li>Tối ưu hiệu suất website và SEO</li>
-                        <li>Tích hợp và tùy chỉnh các plugin theo nhu cầu</li>
-                        <li>Bảo trì và nâng cấp website định kỳ</li>
-                        <li>Thiết lập và quản lý chiến dịch Google Ads</li>
-                        <li>Phân tích và báo cáo hiệu quả quảng cáo Google</li>
-                    </ul>
-                    <div class="tech-stack">
-                        <span class="tech-tag">WordPress</span>
-                        <span class="tech-tag">PHP</span>
-                        <span class="tech-tag">MySQL</span>
-                        <span class="tech-tag">HTML/CSS</span>
-                        <span class="tech-tag">JavaScript</span>
+                <div class="project-description">
+                    <div class="vi">
+                        <p>Phát triển và tùy chỉnh các website WordPress cho doanh nghiệp</p>
+                        <ul class="project-highlights">
+                            <li>Phát triển theme tùy chỉnh theo yêu cầu khách hàng</li>
+                            <li>Tích hợp và tùy chỉnh các plugin theo nhu cầu</li>
+                            <li>Bảo trì và nâng cấp website định kỳ</li>
+                            <li>Thiết lập và quản lý chiến dịch Google Ads</li>
+                            <li>Phân tích và báo cáo hiệu quả quảng cáo Google</li>
+                        </ul>
                     </div>
-                </div>
-                <div class="project-description en hidden">
-                    <p>Development and customization of WordPress websites for businesses</p>
-                    <ul class="project-highlights">
-                        <li>Developed custom themes according to client requirements</li>
-                        <li>Optimized website performance and SEO</li>
-                        <li>Integrated and customized plugins based on needs</li>
-                        <li>Performed regular maintenance and upgrades</li>
-                        <li>Set up and managed Google Ads campaigns</li>
-                        <li>Analyzed and reported Google advertising performance</li>
-                    </ul>
+                    <div class="en hidden">
+                        <p>Development and customization of WordPress websites for businesses</p>
+                        <ul class="project-highlights">
+                            <li>Developed custom themes according to client requirements</li>
+                            <li>Integrated and customized plugins based on needs</li>
+                            <li>Performed regular maintenance and upgrades</li>
+                            <li>Set up and managed Google Ads campaigns</li>
+                            <li>Analyzed and reported Google advertising performance</li>
+                        </ul>
+                    </div>
                     <div class="tech-stack">
                         <span class="tech-tag">WordPress</span>
                         <span class="tech-tag">PHP</span>
@@ -207,33 +210,38 @@
                     <h3 class="project-title en hidden">Flight Booking System</h3>
                     <span class="project-date">05/07/2024 - 15/07/2024</span>
                 </div>
-                <div class="project-description vi">
-                    <p>Nền tảng đặt vé máy bay trực tuyến với tính năng tìm kiếm và đặt vé thông minh</p>
-                    <ul class="project-highlights">
-                        <li>Phát triển hệ thống xác thực và phân quyền người dùng</li>
-                        <li>Xây dựng engine tìm kiếm chuyến bay với nhiều tiêu chí</li>
-                        <li>Phát triển hệ thống thanh toán tích hợp</li>
-                        <li>Triển khai chức năng quản lý đặt vé và lịch sử giao dịch</li>
-                        <li>Tối ưu hóa quy trình đặt vé và xử lý concurrent bookings</li>
-                    </ul>
-                    <div class="tech-stack">
-                        <span class="tech-tag">Spring Boot</span>
-                        <span class="tech-tag">Spring Security</span>
-                        <span class="tech-tag">Thymeleaf</span>
-                        <span class="tech-tag">MySQL</span>
-                        <span class="tech-tag">AJAX</span>
-                        <span class="tech-tag">JavaMail</span>
+                <div class="project-description">
+                    <div class="vi">
+                        <p class="subtitle">Mô tả dự án:</p>
+                        <p>Website đặt vé máy bay cho phép người dùng tìm kiếm chuyến bay, chọn chỗ ngồi theo sở thích
+                            và thanh toán trực tuyến. Hệ thống hỗ trợ đăng ký, đăng nhập an toàn bằng Spring Security,
+                            cung cấp lịch sử đặt vé, kiểm tra trạng thái vé và quản lý vé thông qua email. Giao diện
+                            thân
+                            thiện, tối ưu trải nghiệm đặt vé nhanh chóng và tiện lợi.</p>
+                        <p class="subtitle">Nhiệm vụ:</p>
+                        <ul class="project-highlights">
+                            <li>Thiết kế giao diện website</li>
+                            <li>Xây dựng logic tìm kiếm chuyến bay</li>
+                            <li>Phát triển đăng nhập/đăng ký với Spring Security</li>
+                            <li>Thêm tính năng chọn ghế khi đặt vé</li>
+                            <li>Xây dựng lịch sử đặt vé & kiểm tra trạng thái vé</li>
+                        </ul>
                     </div>
-                </div>
-                <div class="project-description en hidden">
-                    <p>Online flight booking platform with smart search and booking features</p>
-                    <ul class="project-highlights">
-                        <li>Developed authentication system and user authorization</li>
-                        <li>Built multi-criteria flight search engine</li>
-                        <li>Developed integrated payment system</li>
-                        <li>Implemented booking management and transaction history</li>
-                        <li>Optimized booking workflow and concurrent booking handling</li>
-                    </ul>
+                    <div class="en hidden">
+                        <p class="subtitle">Project description:</p>
+                        <p>The flight booking website allows users to search for flights, select preferred seats, and
+                            make online payments. The system supports secure registration and login with Spring
+                            Security, provides booking history, ticket status checks, and ticket management via email.
+                            The user-friendly interface optimizes the booking experience for speed and convenience.</p>
+                        <p class="subtitle">My tasks:</p>
+                        <ul class="project-highlights">
+                            <li>Designed website UI</li>
+                            <li>Implemented flight search logic</li>
+                            <li>Developed authentication with Spring Security</li>
+                            <li>Added seat selection feature</li>
+                            <li>Built booking history & ticket status check</li>
+                        </ul>
+                    </div>
                     <div class="tech-stack">
                         <span class="tech-tag">Spring Boot</span>
                         <span class="tech-tag">Spring Security</span>
@@ -245,8 +253,7 @@
                 </div>
                 <div>
                     <strong>GitHub:</strong>
-                    <a href="https://github.com/C0324H1-Org/SkyJourney-Airline" target="_blank"
-                       style="color: var(--primary-color); text-decoration: none;">github.com/C0324H1-Org/SkyJourney-Airline</a>
+                    <a class="link" href="https://github.com/C0324H1-Org/SkyJourney-Airline" target="_blank">github.com/C0324H1-Org/SkyJourney-Airline</a>
                 </div>
             </div>
             <div class="project">
@@ -255,32 +262,41 @@
                     <h3 class="project-title en hidden">Real Estate Management Website</h3>
                     <span class="project-date">01/09/2024 - 15/09/2024</span>
                 </div>
-                <div class="project-description vi">
-                    <p>Nền tảng quản lý và môi giới bất động sản toàn diện, phục vụ cả người mua và người bán</p>
-                    <ul class="project-highlights">
-                        <li>Phát triển hệ thống xác thực và phân quyền người dùng</li>
-                        <li>Thiết kế và triển khai REST APIs cho các chức năng chính</li>
-                        <li>Tối ưu hiệu suất tìm kiếm và lọc bất động sản</li>
-                    </ul>
-                    <div class="tech-stack">
-                        <span class="tech-tag">Java Spring Boot</span>
-                        <span class="tech-tag">REST APIs</span>
-                        <span class="tech-tag">JWT</span>
-                        <span class="tech-tag">JavaMail</span>
-                        <span class="tech-tag">WebSocket</span>
-                        <span class="tech-tag">MySQL</span>
-                        <span class="tech-tag">ReactJs</span>
+                <div class="project-description">
+                    <div class="vi">
+                        <p class="subtitle">Mô tả dự án:</p>
+                        <p>Website quản lý mua bán bất động sản hoạt động như một nền tảng trung gian kết nối người mua
+                            và người bán. Người bán có thể đăng tin bất động sản, cung cấp thông tin chi tiết về tài
+                            sản, trong khi người mua có thể tìm kiếm và xem thông tin về các bất động sản phù hợp. Hệ
+                            thống hỗ trợ các chức năng như đăng ký, đăng nhập, quản lý tài khoản, và gửi thông báo cho
+                            người mua và người bán. Giao diện dễ sử dụng, giúp người dùng tìm kiếm và giao dịch bất động
+                            sản một cách nhanh chóng và thuận tiện.</p>
+                        <p class="subtitle">Nhiệm vụ:</p>
+                        <ul class="project-highlights">
+                            <li>Thiết kế và phát triển giao diện người dùng (UI) cho website</li>
+                            <li>Xây dựng tính năng đăng nhập/đăng ký và phân quyền người dùng sử dụng JWT</li>
+                            <li>Phát triển tính năng trang cá nhân, cho phép người dùng cập nhật thông tin</li>
+                        </ul>
                     </div>
-                </div>
-                <div class="project-description en hidden">
-                    <p>Comprehensive real estate management and brokerage platform serving both buyers and sellers</p>
-                    <ul class="project-highlights">
-                        <li>Developed authentication system and user authorization</li>
-                        <li>Designed and implemented REST APIs for core functionalities</li>
-                        <li>Optimized property search and filtering performance</li>
-                    </ul>
+                    <div class="en hidden">
+                        <p class="subtitle">Project description:</p>
+                        <p>The real estate management website serves as an intermediary platform connecting buyers and
+                            sellers. Sellers can list properties and provide detailed information, while buyers can
+                            search for and view relevant property details. The system supports features like
+                            registration, login, account management, and notifications for both buyers and sellers. The
+                            user-friendly interface ensures fast and convenient property search and transaction
+                            processes.</p>
+                        <p class="subtitle">My tasks:</p>
+                        <ul class="project-highlights">
+                            <li>Designed and developed the website's user interface (UI)</li>
+                            <li>Implemented login/registration functionality with JWT-based user authentication and role
+                                management
+                            </li>
+                            <li>Developed personal profile feature, allowing users to update their information</li>
+                        </ul>
+                    </div>
                     <div class="tech-stack">
-                        <span class="tech-tag">Java Spring Boot</span>
+                        <span class="tech-tag">Spring Boot</span>
                         <span class="tech-tag">REST APIs</span>
                         <span class="tech-tag">JWT</span>
                         <span class="tech-tag">JavaMail</span>
@@ -291,8 +307,7 @@
                 </div>
                 <div>
                     <strong>GitHub:</strong>
-                    <a href="https://github.com/Real-Estate-Platforms-Project" target="_blank"
-                       style="color: var(--primary-color); text-decoration: none;">github.com/Real-Estate-Platforms-Project</a>
+                    <a class="link" href="https://github.com/Real-Estate-Platforms-Project" target="_blank">github.com/Real-Estate-Platforms-Project</a>
                 </div>
             </div>
         </div>
